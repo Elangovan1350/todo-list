@@ -17,7 +17,7 @@ const App: React.FC = () => {
   console.log(todos);
 
   return (
-    <section className="bg-blue-700 h-screen ">
+    <section className="bg-blue-700 h-screen select-none ">
       <div className=" flex flex-col justify-center items-center">
         <h1 className="text-3xl text-white  m-8 z-10">TASKIFY</h1>
         <Inputfeild todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
