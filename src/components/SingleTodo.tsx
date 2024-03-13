@@ -41,7 +41,7 @@ const SingleTodo: React.FC<Props> = ({ todo, key, todos, setTodo }: Props) => {
   return (
     <form
       key={key}
-      className="bg-yellow-500 w-60  md:w-96  h-14 rounded flex  justify-between items-center px-2 "
+      className="bg-yellow-500 w-72  md:w-96  h-14 rounded flex  justify-between items-center px-2 "
       onSubmit={(e) => handleEdit(e, todo.id)}
     >
       {edit ? (
